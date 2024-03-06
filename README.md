@@ -13,7 +13,7 @@ With the docker engine running, from the root directory of this repo, run:
 You can name/tag the image however you'd like. Building might take around 10 minutes. 
 
 ## Prior to running the built image
-Required folder structure of the repo, create whatever folders are needed prior to building:
+Required folder structure of the repo, create whatever folders are needed prior to running:
 
 <pre>
 repo  
