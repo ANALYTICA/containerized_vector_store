@@ -15,6 +15,7 @@ You can name/tag the image however you'd like. Building might take around 10 min
 ## Prior to running the built image
 Required folder structure of the repo, create whatever folders are needed prior to building:
 
+<pre>
 repo  
   |---Dockerfile, README.md, llama.py, etc.  
   |---bind  
@@ -23,7 +24,8 @@ repo
       |---documents  
           put your documents here (txt and pdf)  
       |---vectorstore  
-          leave empty, container will populate  
+          leave empty, container will populate 
+ </pre>
 
 Prior to running the image, you need a model to use which is llama-cpp compliant. This must be stored in the bind/model folder relative to this repo. Create this folder if it does not exist. This repo was tested with this model:
 
